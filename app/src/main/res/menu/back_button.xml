@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="estudent.spark.fragments_filip.Exercise">
+    <item
+        android:id="@+id/backButton"
+        android:orderInCategory="1"
+        android:title="Back"
+        app:showAsAction="never"
+        />
+</menu>

@@ -1,0 +1,170 @@
+
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#d6efbf">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Kategorija"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Naslov"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/spinner"
+        android:layout_alignLeft="@+id/spinner"
+        android:layout_alignStart="@+id/spinner"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etTitle"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignRight="@+id/spinner"
+        android:layout_alignEnd="@+id/spinner"
+        android:layout_marginTop="10dp"
+        android:hint="unesite naslov" />
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:id="@+id/ivDate"
+        android:layout_below="@+id/etTitle"
+        android:layout_alignLeft="@+id/etTitle"
+        android:layout_alignStart="@+id/etTitle"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/calendar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="dodajte datum"
+        android:id="@+id/tvDate"
+        android:layout_alignBottom="@+id/ivDate"
+        android:layout_toRightOf="@+id/ivDate"
+        android:layout_toEndOf="@+id/ivDate"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:id="@+id/ivTimer"
+        android:src="@drawable/time"
+        android:layout_below="@+id/ivDate"
+        android:layout_alignLeft="@+id/ivDate"
+        android:layout_alignStart="@+id/ivDate"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="dodajte vrijeme"
+        android:id="@+id/tvTime"
+        android:layout_alignBottom="@+id/ivTimer"
+        android:layout_toRightOf="@+id/ivTimer"
+        android:layout_toEndOf="@+id/ivTimer"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Cijena:"
+        android:id="@+id/textView20"
+        android:layout_below="@+id/ivTimer"
+        android:layout_alignLeft="@+id/ivTimer"
+        android:layout_alignStart="@+id/ivTimer"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etPrice"
+        android:layout_below="@+id/tvTime"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_alignRight="@+id/etTitle"
+        android:layout_alignEnd="@+id/etTitle"
+        android:hint="unesite cijenu u KM"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Detalji"
+        android:id="@+id/textView21"
+        android:layout_below="@+id/etPrice"
+        android:layout_alignLeft="@+id/textView20"
+        android:layout_alignStart="@+id/textView20"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etDetail"
+        android:layout_below="@+id/textView21"
+        android:layout_alignLeft="@+id/textView21"
+        android:layout_alignStart="@+id/textView21"
+        android:layout_alignRight="@+id/etTitle"
+        android:layout_alignEnd="@+id/etTitle"
+        android:layout_marginTop="10dp"
+        android:hint="unesite detalje..." />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivCancel"
+        android:src="@drawable/cancel"
+        android:layout_below="@+id/etDetail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="75dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivInsert"
+        android:src="@drawable/confirm"
+        android:layout_below="@+id/etDetail"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="75dp"
+        android:layout_marginTop="15dp" />
+</RelativeLayout>

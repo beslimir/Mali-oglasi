@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BuckySQLite</string>
+    <string name="insertActivity">Insert</string>
+    <string name="profileActivity">Profile</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_opened">Drawer Opened</string>
+    <string name="drawer_closed">Drawer Closed</string>
+    <string name="action_settings">Postavke</string>
+    <string name="welcome">Dobrodošli!</string>
+    <string name="logout">Odjava</string>
+    <string name="user_name">korisničko ime</string>
+    <string name="password">lozinka</string>
+    <string name="login">prijavi se</string>
+    <string name="email">email</string>
+    <string name="first_name">ime</string>
+    <string name="last_name">prezime</string>
+    <string name="registration">Registriraj se</string>
+    <string name="tRegistration">Registracija</string>
+    <string name="home">Početna</string>
+    <string name="aboutUs">O nama</string>
+    <string name="settings">Postavke</string>
+    <string name="insert">Umetni</string>
+    <string name="info">Info</string>
+    <string name="back">Nazad</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_fragment_oone">fragment_oone</string>
+    <string name="title_activity_aaaaaaaaaaaaaa">AaaaaaaaaaaaaaActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>
